@@ -1,0 +1,17 @@
+.ingresoMasListado {
+  display: flex;
+  flex-direction: row;
+}
+.imagenPastel {
+  width: 200px;
+  height: 200px;
+}
+.ingresaPastel {
+  border: 1px solid firebrick;
+  width: 200px;
+}
+.muestraTodos {
+  height: 400px;
+  overflow: scroll;
+}
+

@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  serviceGetbuscarTodos : 'http://localhost:8000/buscaTodos',
+  serviceGetbuscarUno : 'http://localhost:8000/buscarUno',
+  serviceGetnuevo : 'http://localhost:8000/nuevo',
+  serviceGetIngresarComentario : 'http://localhost:8000/ingresarComentario'
 };
 
 /*
